@@ -22,7 +22,7 @@ public class GUIPanel extends JPanel
 		this.baseController = baseController;
 		
 		firstButton = new JButton("Please do not click the button");
-		firstTextField = new JTextField("words can be typed here");
+		firstField = new JTextField("words can be typed here");
 		
 		setupPanel();
 		setupLayout();
