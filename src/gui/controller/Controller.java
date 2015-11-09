@@ -20,11 +20,11 @@ public class Controller
 	 * Creates a GUIAppController and initializes the GUIFrame.
 	 */
 	
-	public GUIAppController()
+	public Controller()
 	{
 		baseFrame = new GUIFrame(this);
 	}
 	
-	public voidstart()
+	public void start()
 	{}
 }
